@@ -23,8 +23,19 @@
 
 .contact-title h1 {
     padding: 0px 30px;
-    font-size: 50px;
-    font-weight: 600;
+    font-size: 45px;
+    font-weight: 500;
+}
+.contact-title::after {
+    content: "";
+    width: 120px;
+    height: 6px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #f06bb3, #5b4dff);
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .contact-title img {

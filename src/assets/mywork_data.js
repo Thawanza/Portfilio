@@ -1,118 +1,44 @@
-import react from './react.svg'
-import nodejs from './nodejs.svg'
-import java from './java.svg'
-import reactnative from './reactnative.svg'
-import calculatrice from './calculatrice.svg'
-import eredis from './eredis.svg'
+
+// mywrk_data.js
+
 const mywork_data = [
     {
-        w_no: 1,
-        w_name: "Plateforme e-commerce dédiée à l'artisanat",
-        w_img: eredis,
-        w_desc: `Développement d’une plateforme e-commerce dédiée aux produits artisanaux, permettant aux artisans de vendre leurs articles en ligne.
+    w_name: "Site vitrine pour une créche",
+    w_tech: "React • CSS • Responsive Design",
+    w_desc:
+      "Site vitrine pour une créche, responsive et moderne. Présentation des services, galerie d’images, section de contact et design UI/UX optimisé pour une expérience utilisateur fluide.",
+    github: "https://github.com/Thawanza/LaCr-cheMayelineRihame",
+      demo: "https://la-cr-che-mayeline-rihame.vercel.app/"
+  },
 
-Réalisée avec React.js et Next.js, la plateforme prend en charge plusieurs rôles utilisateurs (administrateur, artisan, client), une gestion complète des produits et des commandes, ainsi que plusieurs moyens de paiement (Stripe et reçu CCP).
+  {
+    w_name: "Plateforme E-commerce",
+    w_tech: "React • Node.js • MongoDB • Next.js ",
+    w_desc:
+      "Développement complet d’une plateforme e-commerce avec authentification JWT, paiement Stripe, panier dynamique, dashboard admin et gestion des commandes.",
+    demo: "https://e-redis.com/"
+  },
 
-Nous avons intégré une gestion multilingue (français / arabe) avec i18next, en adaptant dynamiquement la direction de l’interface (RTL/LTR) selon la langue sélectionnée.
-
-Le système ajuste également les devises et les prix affichés en fonction de la localisation du client, pour offrir une expérience utilisateur personnalisée et internationalisée.
-`
-    },
-    {
-        w_no: 2,
-        w_name: "API Backend sécurisée",
-        w_img: nodejs,
-        w_desc: `Projet backend réalisé en suivant un tutoriel YouTube dans le cadre d'une formation pour découvrir les bases du développement backend avec Node.js.
-J’ai mis en place des routes API, connecté l’application à une base de données MongoDB, et utilisé Postman pour les tests.
-
-Ce projet m’a permis de comprendre :
-- la structure d’une API REST,
-- les requêtes HTTP (GET, POST, PUT, DELETE),
-- la gestion des utilisateurs (authentification / autorisation),
-- les bases de la sécurité des API.`
-    },
-    {
-        w_no: 3,
-        w_name: "Réalisation d'un portfolio",
-        w_img: react,
-        w_desc: "Création d’un site portfolio responsive en React.js pour mettre en valeur mes projets, compétences et expériences, avec design moderne et animations interactives."
-    },
-    {
-        w_no: 4,
-        w_name: "Application mobile pour l'adoption d'animaux",
-        w_img: reactnative,
-        w_desc: `Projet réalisé en suivant un tutoriel YouTube dans le cadre d'une formation pour apprendre à développer une application mobile full-stack avec React Native, Expo et Firebase. 
-
-Elle permet aux utilisateurs de: 
-Ajouter et consulter des profils d’animaux à adopter ,
-
-créer un compte via Firebase Auth ,
-
-envoyer et recevoir des messages dans un système de messagerie intégré .
-
-Ce projet m’a permis d’apprendre :
-Comprendre la structure d’une app mobile avec Expo, 
-
-la navigation multi-écrans avec React Native Navigation,
-
-l’intégration de Firebase (authentification, base de données),
-
-la mise en place d’une messagerie sécurisée entre utilisateurs. 
+  {
+    w_name: "Portfolio Professionnel",
+    w_tech: "React • CSS • Responsive Design",
+    w_desc:
+      "Création d’un portfolio moderne, responsive et professionnel pour présenter mes compétences, mes projets et mon parcours académique avec design UI/UX optimisé.",
+    github: "https://github.com/Thawanza/Portfilio",
+    demo: "https://portfilio-rosy-three.vercel.app/"
+  },
+  {
+  w_name: "Application d'adaptation des animaux",
+  w_tech: "ReactNative • Firebase • Expo",
+  w_desc:
+    "Application mobile d’adoption d’animaux, avec authentification Firebase, liste d’animaux à adopter, filtres de recherche, et interface utilisateur intuitive pour faciliter l’adoption.",
+  github: "https://github.com/Thawanza/pet-adopt-app",
+},
+  
 
 
-Source d’apprentissage : Tutoriel YouTube – Build Pet Adopt App with React Native, Expo & Firebase`
-    },
-    {
-        w_no: 5,
-        w_name: "Application web pour la gestion des emplois d'examens",
-        w_img: java,
-        w_desc: `Projet réalisé dans le cadre de notre Master 1 en Génie Logiciel à l’Université de Bejaïa.  
-Nous avons conçu et développé une application web avec Laravel, permettant aux établissements universitaires de générer automatiquement les emplois du temps des examens, tout en tenant compte des contraintes réelles : indisponibilités des enseignants, modules, salles, spécialités et sessions (normale, rattrapage, remplacement).  
-L’application offre une interface intuitive pour la gestion des données académiques et intègre un système intelligent de génération de planning conforme aux critères pédagogiques.
-`
-    },
-    {
-        w_no: 6,
-        w_name: "Application mobile pour la gestion des soins infirmiers",
-        w_img: java,
-        w_desc: `Projet réalisé dans le cadre du Master 1 en Génie Logiciel à l’Université de Bejaïa.
 
-Nous avons conçu une application mobile visant à améliorer la gestion quotidienne des soins infirmiers dans les établissements de santé.
-L’application permet :
 
-L’authentification sécurisée du personnel médical selon leur rôle (administrateur, médecin, infirmier, aide-soignant)
-
-La gestion des dossiers médicaux des patients (ajout, modification, consultation)
-
-Le suivi des soins, des signes vitaux, et des remarques médicales`
-    },
-    {
-        w_no: 7,
-        w_name: "Application mobile pour laboratoire d'analyse",
-        w_img: java,
-        w_desc: `AnalyzeMe est une application mobile développée en Java avec Android Studio, réalisée dans le cadre de notre projet de fin de cycle de licence.
-
-Elle permet aux utilisateurs de :
-
- Prendre rendez-vous dans un laboratoire d’analyses médicales,
-
- Consulter leurs résultats directement via l’application,
-
- Faciliter la gestion des interactions entre patients et laboratoires.
-
-Technologies utilisées:
-Java, Android Studio, MySql.`
-    },
-    {
-        w_no: 8,
-        w_name: "Application mobile pour le calcul de la moyenne L3",
-        w_img: calculatrice,
-        w_desc: `Projet académique visant à faciliter le calcul des moyennes semestrielles et annuelles pour les étudiants en Licence 3.
-
-Développée avec Java, l’application permet aux étudiants de saisir leurs notes par module, en tenant compte des coefficients, afin d’obtenir automatiquement leur moyenne globale.  
-Elle propose une interface simple et intuitive, permettant un suivi rapide de la validation des semestres.
-`
-    }
 ]
 
 export default mywork_data

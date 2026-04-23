@@ -46,9 +46,9 @@ function About() {
                             <hr style={{ width: "76%" }} />
                             <ul className="courses-list">
                                 <li>Développeur Application Android (École Amis de Java)</li>
-                                <li>Développeur Java (École Java)</li>
-                                <li>Apprenez à programmer avec JavaScript (OpenClassrooms)</li>
-                                <li>Passez au Full Stack avec Node.js, Express et MongoDB (OpenClassrooms)</li>
+                                <li>Développeur Java (École Amis de Java)</li>
+                                
+                                
                             </ul>
                         </div>
 

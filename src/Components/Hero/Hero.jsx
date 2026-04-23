@@ -30,14 +30,14 @@ function Hero() {
 
       <div className='hero-description'>
         <p>
-          Je suis récemment diplômée. Développeuse Full-Stack passionnée par les technologies, 
+          Développeuse Full-Stack passionnée par les technologies, 
           je conçois des sites web et des applications modernes.
         </p>
       </div>
 
       <div className='hero-action'>
         <div className='hero-connect'>
-          <AnchorLink className='anchor-link' offset={50} href='#contact'>
+          <AnchorLink className='anchor' offset={50} href='#contact'>
             Contactez-moi
           </AnchorLink>
         </div>
