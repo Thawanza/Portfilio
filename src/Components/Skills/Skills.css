@@ -3,7 +3,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 60px; /* espace vertical entre titre et container */
+  gap: 60px;
+  /* espace vertical entre titre et container */
   margin: 80px 100px;
 }
 
@@ -24,15 +25,15 @@
 }
 
 .skill-title::after {
-    content: "";
-    width: 120px;
-    height: 6px;
-    border-radius: 20px;
-    background: linear-gradient(90deg, #f06bb3, #5b4dff);
-    position: absolute;
-    bottom: -15px;
-    left: 50%;
-    transform: translateX(-50%);
+  content: "";
+  width: 120px;
+  height: 6px;
+  border-radius: 20px;
+  background: linear-gradient(90deg, #f06bb3, #5b4dff);
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 /* --- CARTES DE COMPÉTENCES --- */
@@ -42,7 +43,7 @@
   gap: 25px;
   margin-bottom: 80px;
   width: 100%;
-  
+
 }
 
 .skill-format {
@@ -54,7 +55,8 @@
   padding: 6px 8px;
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.03);
-border: 1px solid rgba(255,255,255,0.06);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(14px);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
   box-shadow: 0 2px 6px rgba(255, 255, 255, 0.1);
@@ -88,7 +90,8 @@ border: 1px solid rgba(255,255,255,0.06);
 
 @media (max-width: 768px) {
   .skills {
-    margin: 50px 30px; /* plus d'espace sur tablette pour séparer About et Skills */
+    margin: 50px 30px;
+    /* plus d'espace sur tablette pour séparer About et Skills */
     gap: 60px;
   }
 
@@ -116,7 +119,8 @@ border: 1px solid rgba(255,255,255,0.06);
 
 @media (max-width: 480px) {
   .skills {
-    margin: 60px 15px; /* espace suffisant entre About et Skills */
+    margin: 60px 15px;
+    /* espace suffisant entre About et Skills */
     gap: 50px;
   }
 
